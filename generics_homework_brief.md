@@ -28,7 +28,7 @@ class Account<T> {
 ```
 
 4. At what point does the generic type get specified?
-- The generic type is specified when an instance of it is created, and the object name is put in place of the placeholder. At compile time, there are not two copies of the code - one generic and one specific; there is only one.
+- The type is specified when it is declared, before an instance of it is created.
 
 5. Can generic types be of primitive type?
 - Generic types must be objects, therefore they cannot be primitive types.
